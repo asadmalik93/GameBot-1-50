@@ -9,7 +9,7 @@ public class Controller {
 
 	public static void main(String[] args) {
 
-		System.setProperty("webdriver.chrome.driver", "/Users/asadmalik/Desktop/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "lib"+File.seperator+"chromedriver");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://zzzscore.com/1to50/en/");
 		
